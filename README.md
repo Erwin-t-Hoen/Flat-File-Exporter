@@ -3,10 +3,10 @@ Flat & Delimited File Export
 
  Author	Erwin 't Hoen
  Type	Module
- Latest Version	v2.2
- Package filename	FlatFileExport_2.2.mpk
+ Latest Version	v3.1
+ Package filename	FlatFileExportv3.1.mpk
  
-
+ 
 Description
  
 
