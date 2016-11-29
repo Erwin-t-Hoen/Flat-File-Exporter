@@ -1,8 +1,8 @@
 Name Flat & Delimited File Export
 
- Author	Erwin 't Hoen
- Type	Module
- Latest Version	v4.1
+ Author	Erwin 't Hoen  
+ Type	Module  
+ Latest Version	v4.1  
  Package filename	FlatFileExport_Mx5211.mpk
  
  
