@@ -1,5 +1,4 @@
-Name                                                   	
-Flat & Delimited File Export
+Name Flat & Delimited File Export
 
  Author	Erwin 't Hoen
  Type	Module
