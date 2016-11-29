@@ -83,28 +83,28 @@ If you want to try to export some more records there is a function on the TestEx
  
 After saving the data entered above you will be able to define the columns to be exported
  
-Columns:  
-Column Number: Auto generated number for the column indicating the position in the resulting file  
-Column Header: The header to be used in the export file for this column  
-Pad: choice of padding the data:  
-No Padding  
-Left Padding  
-Right Padding  
-Pad with: When padding left or rigth this field holds the character used in the padding  
-Length: the length of the data to be exported and optionally padded  
-Is Reference: Select this if the attribute you are defining is stored in a related entity  
-Select Attribute: Select one of the attributes from the entity definined for exporting (see General section)  
-Select Reference: If the attribute you are defining is stored in a related entity this allow you to choose the relation to be used for the related entity  
-Select Reference Attribute: Select the attribute from the related entity  
-Date Time Format: If the attribute selected is a datetime field you need to supply the definition with a format to be used for the datetime value (default is: dd-MM-yyyy HH:mm:ss)  
+**Columns**:  
+**Column Number**: Auto generated number for the column indicating the position in the resulting file  
+**Column Header**: The header to be used in the export file for this column  
+**Pad**: choice of padding the data:  
+*No Padding  
+*Left Padding  
+*Right Padding  
+**Pad with**: When padding left or rigth this field holds the character used in the padding  
+**Length**: the length of the data to be exported and optionally padded  
+**Is Reference**: Select this if the attribute you are defining is stored in a related entity  
+**Select Attribute**: Select one of the attributes from the entity definined for exporting (see General section)  
+**Select Reference**: If the attribute you are defining is stored in a related entity this allow you to choose the relation to be used for the related entity  
+**Select Reference Attribute**: Select the attribute from the related entity  
+**Date Time Format**: If the attribute selected is a datetime field you need to supply the definition with a format to be used for the datetime value (default is: dd-MM-yyyy HH:mm:ss)  
  
-Ready your own entities for exporting:
+**Ready your own entities for exporting**:
 
 To allow your own entities to be exported with a microflow follow the next steps.
 
-Create a referenceset type relation from the FlatFileExport.ExportBatch entity to your entity (the N is on the ExportBatch side, see example)  
-Synchronize the MxModelReflection module  
-Create your Export Configuration  
-Create a microflow (1) that retrieves a list of your entity's data (the data to be exported), creates a new exportbatch record with the correct reference set with the list and call the export microflow (see example in the module)  
-Create a second microflow (2) that can be copied from the module's execution folder (ExportFlow) and change the first action so that your configuration name and defined entity are used)  
-Connect your microflow (1) to a button or other microflow for execution from the client and test your export.  
+*Create a referenceset type relation from the FlatFileExport.ExportBatch entity to your entity (the N is on the ExportBatch side, see example)  
+*Synchronize the MxModelReflection module  
+*Create your Export Configuration  
+*Create a microflow (1) that retrieves a list of your entity's data (the data to be exported), creates a new exportbatch record with the correct reference set with the list and call the export microflow (see example in the module)  
+*Create a second microflow (2) that can be copied from the module's execution folder (ExportFlow) and change the first action so that your configuration name and defined entity are used)  
+*Connect your microflow (1) to a button or other microflow for execution from the client and test your export.  
