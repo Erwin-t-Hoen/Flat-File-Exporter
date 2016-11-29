@@ -45,8 +45,10 @@ See the general instructions under How to Install.
 Dependencies
  
 
-Mendix 5.21.1 environment
+Mendix 5.21.1 environment  
 The MxModelReflection module needs to be installed
+
+
 Configuration
 General:
 
@@ -68,7 +70,7 @@ Try the export200 or export selected buttons on the TestExportEntity_Overview fo
 If you want to try to export some more records there is a function on the TestExportEntity_Overview form that will create 199 copies of the record you created.
  
  
-Configuration setup:
+Configuration setup:  
 General
 Name: Unique name for the configuration, to be used in the calling microflow (see example)
 File Type: A choice of delimited or fixed length files
