@@ -72,7 +72,7 @@ If you want to try to export some more records there is a function on the TestEx
  
 Configuration setup:  
 General  
-*Name*: Unique name for the configuration, to be used in the calling microflow (see example)  
+**Name**: Unique name for the configuration, to be used in the calling microflow (see example)  
 File Type: A choice of delimited or fixed length files  
 Delimiter: The delimiting character to be used when exporting delimited files  
 Download Result: This option will create a FileDocument that can be downloaded by the user.  
