@@ -3,14 +3,15 @@ Flat & Delimited File Export
 
  Author	Erwin 't Hoen
  Type	Module
- Latest Version	v3.1
- Package filename	FlatFileExportv3.1.mpk
+ Latest Version	v4.1
+ Package filename	FlatFileExport_Mx5211.mpk
  
  
 Description
  
 
-The flat & delimited file export module allows you to export data from your model to fixed length and/or delimited files without the need for java programming. The module has been setup in such a way that with a little modeling and some configuration your are able to export data from a microflow.
+The flat & delimited file export module allows you to export data from your model to fixed length and/or delimited files without the need for java programming. 
+The module has been setup in such a way that with a little modeling and some configuration your are able to export data from a microflow.
 
  
 
@@ -45,8 +46,8 @@ See the general instructions under How to Install.
 Dependencies
  
 
-Mendix 4.3.2 Environment
-The MxModelReflection module needs to be installed (version 3.3 was used for development)
+Mendix 5.21.1 environment
+The MxModelReflection module needs to be installed
 Configuration
 General:
 
