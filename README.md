@@ -87,9 +87,9 @@ After saving the data entered above you will be able to define the columns to be
 **Column Number**: Auto generated number for the column indicating the position in the resulting file  
 **Column Header**: The header to be used in the export file for this column  
 **Pad**: choice of padding the data:  
-*No Padding  
-*Left Padding  
-*Right Padding  
+* No Padding  
+* Left Padding  
+* Right Padding  
 **Pad with**: When padding left or rigth this field holds the character used in the padding  
 **Length**: the length of the data to be exported and optionally padded  
 **Is Reference**: Select this if the attribute you are defining is stored in a related entity  
@@ -102,9 +102,9 @@ After saving the data entered above you will be able to define the columns to be
 
 To allow your own entities to be exported with a microflow follow the next steps.
 
-*Create a referenceset type relation from the FlatFileExport.ExportBatch entity to your entity (the N is on the ExportBatch side, see example)  
-*Synchronize the MxModelReflection module  
-*Create your Export Configuration  
-*Create a microflow (1) that retrieves a list of your entity's data (the data to be exported), creates a new exportbatch record with the correct reference set with the list and call the export microflow (see example in the module)  
-*Create a second microflow (2) that can be copied from the module's execution folder (ExportFlow) and change the first action so that your configuration name and defined entity are used)  
-*Connect your microflow (1) to a button or other microflow for execution from the client and test your export.  
+* Create a referenceset type relation from the FlatFileExport.ExportBatch entity to your entity (the N is on the ExportBatch side, see example)  
+* Synchronize the MxModelReflection module  
+* Create your Export Configuration  
+* Create a microflow (1) that retrieves a list of your entity's data (the data to be exported), creates a new exportbatch record with the correct reference set with the list and call the export microflow (see example in the module)  
+* Create a second microflow (2) that can be copied from the module's execution folder (ExportFlow) and change the first action so that your configuration name and defined entity are used)  
+* Connect your microflow (1) to a button or other microflow for execution from the client and test your export.  
