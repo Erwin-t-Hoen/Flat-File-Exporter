@@ -1,4 +1,4 @@
-Name:               **Flat & Delimited File Export**
+Name:               **Flat & Delimited File Export**  
 Author:	            Erwin 't Hoen  
 Type:	            Module  
 Latest Version:	    v4.1  
